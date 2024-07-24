@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Radiant Charms</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#fab005",
+              secondary: "#fcc419",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="bg-white font-[Poppins]">
+    <header class="bg-black text-white sticky top-0 z-10">
+      <nav
+        class="container flex justify-between items-center mx-auto py-2 px-4"
+      >
+        <div class="flex items-center">
+          <img
+            class="w-12 bg-primary rounded-full"
+            src="img/icons8-ellipse-96.png"
+            alt="logo"
+          />
+          <span class="text-wrap px-2 text-xl text-primary font-bold"
+            >Radiant Charms</span
+          >
+        </div>
+        <div class="hidden md:block">
+          <ul class="flex items-center space-x-6">
+            <li>
+              <a class="hover:text-primary transition-colors" href="/">Home</a>
+            </li>
+            <li>
+              <a class="hover:text-primary transition-colors" href="/">About</a>
+            </li>
+            <li>
+              <a class="hover:text-primary transition-colors" href="/"
+                >Our Collection</a
+              >
+            </li>
+            <li>
+              <a class="hover:text-primary transition-colors" href="/">Blog</a>
+            </li>
+            <li>
+              <a class="hover:text-primary transition-colors" href="/"
+                >Contact us</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div>
+          <button
+            class="bg-secondary px-6 py-2 text-black rounded-full hover:bg-opacity-80 transition-colors"
+          >
+            Sign in
+          </button>
+        </div>
+      </nav>
+    </header>
+    <!--  -->
+    <!-- HOME -->
+    <!--  -->
+    <main>
+      <section id="home" class="container mx-auto px-4 py-10 md:py-10">
+        <div class="flex flex-col md:flex-row items-center justify-center">
+          <div class="w-full md:w-1/2 mb-8 md:mb-0">
+            <h1
+              class="pl-30 text-4xl md:text-6xl font-bold tracking-tight text-left md:text-left pl-0"
+            >
+              Exquisite
+              <span class="text-primary">Handmade Jewelry</span> Crafted with
+              Love and Precision.
+            </h1>
+            <p class="pl-30 text-slate-400 mt-5 text-left md:pl-0 text-left">
+              Explore our diverse range of handmade jewelry and find the perfect
+              piece that speaks to your heart.
+            </p>
+            <div>
+              <button
+                class="ml-30 mt-8 bg-secondary px-6 py-2 text-black rounded-full hover:bg-opacity-80 transition-colors md:ml-0"
+              >
+                <a href="/">Shop Now</a>
+              </button>
+            </div>
+          </div>
+
+          <div class="w-full md:w-1/2 flex justify-center">
+            <img
+              class="w-full max-w-md rounded-md"
+              src="img/pexels-redwolf-44736300-14030660.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+      <!-- ABOUT -->
+      <section
+        class="bg-gray-800 my-10 mx-4 md:mx-auto max-w-6xl rounded-xl overflow-hidden"
+      >
+        <div class="flex flex-col md:flex-row">
+          <div class="w-full md:w-1/2">
+            <img
+              class="w-full h-full object-cover"
+              src="img/hosniye-sadeghi.jpg"
+              alt="Jewelry crafting"
+            />
+          </div>
+          <div class="w-full md:w-1/2 text-zinc-100 p-6 md:p-10">
+            <h2
+              class="text-primary text-xl uppercase font-semibold underline text-center mb-6"
+            >
+              Our Story
+            </h2>
+            <p class="mb-4">
+              Radiant Charms was born out of a deep love for artistry and a
+              desire to bring unique, handcrafted jewelry to those who cherish
+              individuality and quality. Our founder, Yash, started this journey
+              with a simple vision: to create exquisite pieces that combine
+              traditional craftsmanship with modern design.
+            </p>
+            <p class="mb-6">
+              Every piece of jewelry at Radiant Charms is thoughtfully designed
+              and handcrafted by skilled artisans who pour their hearts into
+              their work. We source only the finest materials to ensure that
+              each piece not only looks beautiful but also stands the test of
+              time.
+            </p>
+            <h2
+              class="text-primary text-xl uppercase font-semibold underline text-center mb-6"
+            >
+              Our Mission
+            </h2>
+            <p>
+              Our mission is to celebrate the art of handmade jewelry by
+              creating pieces that resonate with your personal story and style.
+              We are committed to sustainability and ethical practices, ensuring
+              that every piece you purchase from Radiant Charms is made with
+              respect for both people and the planet.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!--  -->
+      <!-- OUR COLLECTION -->
+      <!--  -->
+      <section class="container mx-auto px-4 py-10">
+        <h2
+          class="text-primary text-xl uppercase font-semibold text-center mb-2"
+        >
+          Our Collection
+        </h2>
+        <h3 class="text-amber-600 text-lg font-semibold text-center mb-4">
+          Explore Our Unique Creations
+        </h3>
+        <p class="text-center max-w-2xl mx-auto mb-10">
+          At Radiant Charms, we offer a wide range of jewelry that caters to
+          diverse tastes and occasions. Whether you're looking for a statement
+          necklace, elegant earrings, delicate bracelets, or timeless rings,
+          you'll find something that captures your essence in our collection.
+        </p>
+        <div
+          class="grid grid-cols-1 md:grid-cols-3 gap-8 bg-orange-400 bg-opacity-25 p-6 rounded-xl shadow"
+        >
+          <div class="flex flex-col items-center">
+            <img
+              class="w-full h-auto rounded-xl mb-4"
+              src="img/pexels-the-glorious-studio-3584518-10983783.jpg"
+              alt="Elegant Diamond and Gold Teardrop Earrings"
+            />
+            <h4 class="text-center font-semibold">
+              Elegant Diamond and Gold Teardrop Earrings
+            </h4>
+            <p class="text-center">
+              <span class="line-through mr-2">$1400</span>
+              <span class="font-bold">$1200</span>
+            </p>
+          </div>
+          <div class="flex flex-col items-center">
+            <img
+              class="w-full h-auto rounded-xl mb-4"
+              src="img/pexels-the-glorious-studio-3584518-12026052.jpg"
+              alt="Radiant Diamond-Encrusted Necklace"
+            />
+            <h4 class="text-center font-semibold">
+              Radiant Diamond-Encrusted Necklace
+            </h4>
+            <p class="text-center">
+              <span class="line-through mr-2">$2900</span>
+              <span class="font-bold">$2600</span>
+            </p>
+          </div>
+          <div class="flex flex-col items-center">
+            <img
+              class="w-full h-auto rounded-xl mb-4"
+              src="img/pexels-the-glorious-studio-3584518-12026053.jpg"
+              alt="Luxurious Gold and Diamond Cuban Link Bracelet"
+            />
+            <h4 class="text-center font-semibold">
+              Luxurious Gold and Diamond Cuban Link Bracelet
+            </h4>
+            <p class="text-center">
+              <span class="line-through mr-2">$2400</span>
+              <span class="font-bold">$2100</span>
+            </p>
+          </div>
+        </div>
+      </section>
+      <!--  -->
+      <!-- WHY US -->
+      <section
+        class="container mx-auto px-4 py-10 bg-yellow-400 bg-opacity-10 rounded-xl shadow"
+      >
+        <h2
+          class="text-primary text-xl uppercase font-semibold text-center mb-8"
+        >
+          Why Choose us
+        </h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-6 justify-items-center">
+          <div class="text-center">
+            <img
+              class="w-32 h-32 mx-auto shadow-lg rounded-lg mb-4"
+              src="img/Exclusive Designs.png"
+              alt="Exclusive Designs"
+            />
+            <p class="py-5">Exclusive Designs</p>
+          </div>
+          <div class="text-center">
+            <img
+              class="w-32 h-32 mx-auto shadow-lg rounded-lg mb-4"
+              src="img/hand-made.png"
+              alt="Handcrafted Excellence"
+            />
+            <p class="py-5">Handcrafted Excellence</p>
+          </div>
+          <div class="text-center">
+            <img
+              class="w-32 h-32 mx-auto shadow-lg rounded-lg mb-4"
+              src="img/personalized.png"
+              alt="Personalized Service"
+            />
+            <p class="py-5">Personalized Service</p>
+          </div>
+          <div class="text-center">
+            <img
+              class="w-32 h-32 mx-auto shadow-lg rounded-lg mb-4"
+              src="img/professional.png"
+              alt="Experienced Craftsmen"
+            />
+            <p class="py-5">Experienced Craftsmen</p>
+          </div>
+          <div class="text-center">
+            <img
+              class="w-32 h-32 mx-auto shadow-lg rounded-lg mb-4"
+              src="img/social-responsibility.png"
+              alt="Sustainable and Ethical"
+            />
+            <p class="py-5">Sustainable and Ethical</p>
+          </div>
+        </div>
+      </section>
+      <!--  -->
+      <!-- TESTIMONIALS -->
+      <!--  -->
+      <section class="container mx-auto px-4 py-10">
+        <h2
+          class="text-primary text-xl md:text-2xl uppercase font-semibold text-center mb-10"
+        >
+          What Our Customers Are Saying
+        </h2>
+        <div class="space-y-8">
+          <div class="bg-gray-400 bg-opacity-25 rounded-lg p-4 md:p-6 relative">
+            <div
+              class="flex flex-col md:flex-row items-center md:items-start gap-4 md:gap-8"
+            >
+              <img
+                class="w-24 h-24 object-cover rounded-xl"
+                src="img/diamond-shine-1QHMrp5uUng-unsplash.jpg"
+                alt=""
+              />
+              <div
+                class="bg-gray-400 rounded-lg py-6 px-4 md:py-8 md:px-10 leading-relaxed"
+              >
+                <blockquote class="italic text-sm md:text-base">
+                  "Radiant Charms offers the most beautiful handmade jewelry
+                  I've ever seen. Each piece feels so unique and special. I've
+                  received countless compliments on the necklace I bought!"
+                </blockquote>
+                <p class="mt-4 font-semibold text-sm md:text-base">
+                  - Elizabeth Oslow
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="bg-gray-400 bg-opacity-25 rounded-lg p-4 md:p-6 relative">
+            <div
+              class="flex flex-col md:flex-row items-center md:items-start gap-4 md:gap-8"
+            >
+              <img
+                class="w-24 h-24 object-cover rounded-xl"
+                src="img/pexels-carlosrubiot-13170845.jpg"
+                alt=""
+              />
+              <div
+                class="bg-gray-400 rounded-lg py-6 px-4 md:py-8 md:px-10 leading-relaxed"
+              >
+                <blockquote class="italic text-sm md:text-base">
+                  "I love that Radiant Charms focuses on sustainability and
+                  ethical practices. It makes me feel good about the jewelry I
+                  wear and the impact it has on the world."
+                </blockquote>
+                <p class="mt-4 font-semibold text-sm md:text-base">
+                  - Katie Jacob
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+
+    <!--  -->
+    <footer class="bg-black text-white py-10">
+      <div class="container mx-auto px-4">
+        <div class="flex flex-col md:flex-row justify-around items-center mb-8">
+          <img
+            class="w-14 bg-white rounded-full mb-4 md:mb-0"
+            src="img/icons8-ellipse-96.png"
+            alt="Radiant Charms logo"
+          />
+
+          <div class="flex flex-col items-center md:items-end">
+            <h3 class="text-lg font-semibold mb-2">Get In Touch</h3>
+            <div class="flex">
+              <input
+                class="p-2 rounded-l-lg text-black"
+                type="email"
+                placeholder="Enter Your Email Here"
+              />
+              <button
+                class="bg-secondary text-black px-4 py-2 rounded-r-lg hover:bg-opacity-80 transition-colors"
+              >
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div>
+            <p class="mb-4">
+              We'd love to hear from you! Whether you have a question, need
+              assistance, or want to share your Radiant Charms experience,
+              please reach out to us.
+            </p>
+            <ul class="space-y-2">
+              <li>Email: contact@radiantcharms.com</li>
+              <li>Phone: (123) 456-7890</li>
+              <li>Address: 123 Jewelry Lane, Artisan City, ST 56789</li>
+            </ul>
+          </div>
+          <div>
+            <p class="mb-4">
+              Follow us on social media to stay updated on our latest
+              collections and special offers!
+            </p>
+            <div class="flex space-x-4">
+              <a
+                href="#"
+                class="text-primary hover:text-white transition-colors"
+              >
+                <svg
+                  class="h-8 w-8 fill-current"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z"
+                  />
+                </svg>
+              </a>
+              <a
+                href="#"
+                class="text-primary hover:text-white transition-colors"
+              >
+                <svg
+                  class="h-8 w-8 fill-current"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 448 512"
+                >
+                  <path
+                    d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                  />
+                </svg>
+              </a>
+              <a
+                href="#"
+                class="text-primary hover:text-white transition-colors"
+              >
+                <svg
+                  class="h-8 w-8 fill-current"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"
+                  />
+                </svg>
+              </a>
+              <a
+                href="#"
+                class="text-primary hover:text-white transition-colors"
+              >
+                <svg
+                  class="h-8 w-8 fill-current"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 576 512"
+                >
+                  <path
+                    d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="mt-8 text-center">
+          <p>
+            Thank you for choosing Radiant Charms. We look forward to helping
+            you shine!
+          </p>
+          <p class="mt-2">&copy; 2024 Radiant Charms. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
